@@ -1,0 +1,30 @@
+INSTRUCTIONS FOR RUNNING THE CODE
+
+IMPORTANT INFO: Make sure that your code(source_code.cpp),(Makefile),(Emptyframe.jpg) are there in the required folder.
+STEP 1: Open the terminal and go to the folder where your code file(source_code.cpp (in my case)) is placed and open the folder in terminal.
+
+STEP 2: After that we compile our code for compiling just use the command : "make compile"(Remember that the file makefile also placed the same folder whch containg the source_code.cpp).
+
+ALTERNATIVE STETP 2: For compiling you use the command : "g++ source_code.cpp -o output -std=c++11 `pkg-config --cflags --libs opencv`".
+
+STEP 3: After compiling we run our code for running just use the command : "make run".
+
+ALTERNATIVE STEP 3: For running the code you use the command : "./output".
+
+STEP 4: After calling "make run" command just give the path of the videos and the images that you wanted to find the traffic density and press enter key.
+
+STEP 5: Give the path of the empty frame : "empty.jpg" and press enter key.
+
+STEP 6: Give the path of the video : "trafficvideo.mp4" and press enter key.
+
+STEP 7: Give the frames skipped and press enter key.
+
+STEP 7: After that give the path where you want to store the queue density as well as dynamic density and frame after that just check the output file there with name related to the number of frames skipped.
+
+STEP 8: After this your video is processed wait for some time depend on the video length after the process is complete you see the command on the terminal that Runtime is : ___.
+
+STEP 9: Use the code graph.py and find the utility (make sure that you install matplotlib,numpy library of python).
+
+STEP 10: Give the path of the file that you give in STEP 7.
+
+STEP 11: Now we can plot our graph between utility and the runtime of the program for both cases i.e. queue density and dynamic density.

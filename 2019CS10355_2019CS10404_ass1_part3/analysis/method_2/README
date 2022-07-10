@@ -1,0 +1,13 @@
+Description of files in folder analysis : 
+
+**output_files** :-
+					This folder contains the files which are obtain at the time of running the source_code they contains the data according to method2 they contains the time and the queue density.
+					
+**plotting_patterns** :-
+						This folder contains the code for finding the utility of the data and also contains the code for finding the graph between the utility_metric and runtime.
+
+**Utility_vs_Runtime_graph_method2** :-
+								This is the image of the graph between the utility_metric and runtime.
+								
+**Report_Method_2** :-
+						This pdf contains the analysis report of the data.
